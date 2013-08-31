@@ -1,13 +1,14 @@
+//  Modified by Emanuel Zámano H on 31/08/2013
 #pragma once
 
 #include "ofMain.h"
-#include "ofxiPhone.h"
-#include "ofxiPhoneExtras.h"
+#include "ofxiOS.h"
+#include "ofxiOSExtras.h"
 
 #include "ofxQCAR.h"
 #include "Teapot.h"
 
-class testApp : public ofxiPhoneApp{
+class testApp : public ofxiOSApp{
 	
 public:
     void setup();

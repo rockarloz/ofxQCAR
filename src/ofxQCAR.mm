@@ -3,7 +3,7 @@
 //  emptyExample
 //
 //  Created by lukasz karluk on 14/12/11.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//  Modified by Emanuel Zámano H on 31/08/2013
 //
 
 #import "ofxQCAR.h"
@@ -11,7 +11,7 @@
 #if !(TARGET_IPHONE_SIMULATOR)
 
 #import "ofxQCAR_Utils.h"
-#import "ofxiPhoneExtras.h"
+#import "ofxiOSExtras.h"
 
 #import <QCAR/Renderer.h>
 #import <QCAR/Tool.h>
@@ -246,7 +246,7 @@ void ofxQCAR::setup() {
         [ofxQCAR_Utils getInstance].QCARFlags = QCAR::GL_11;
     }
     
-    if(ofxiPhoneGetOFWindow()->isRetinaEnabled()) {
+    if(ofxiOSGetOFWindow()->isRetinaEnabled()) {
         [ofxQCAR_Utils getInstance].contentScalingFactor = 2.0f;
     }
     

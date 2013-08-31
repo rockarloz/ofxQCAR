@@ -3,7 +3,7 @@
 //  emptyExample
 //
 //  Created by lukasz karluk on 12/12/11.
-//  Copyright (c) 2011 __MyCompanyName__. All rights reserved.
+//  Modified by Emanuel Zámano H on 31/08/2013
 //
 
 #import "MyAppDelegate.h"

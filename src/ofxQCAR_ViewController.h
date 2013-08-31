@@ -2,18 +2,19 @@
 //  ofxQCARViewController.h
 //
 //  Created by lukasz karluk on 19/01/12.
+//  Modified by Emanuel Zámano H on 31/08/2013
 //
 
 #import <UIKit/UIKit.h>
-#import "ofxiPhoneViewController.h"
+#import "ofxiOSViewController.h"
 
-@interface ofxQCAR_ViewController : ofxiPhoneViewController {
+@interface ofxQCAR_ViewController : ofxiOSViewController {
     //
 }
 
-- (id)initWithApp:(ofxiPhoneApp *)app;
-- (id)initWithAppInPortraitMode:(ofxiPhoneApp *)app;
-- (id)initWithAppInLandscapeMode:(ofxiPhoneApp *)app;
+- (id)initWithApp:(ofxiOSApp *)app;
+- (id)initWithAppInPortraitMode:(ofxiOSApp *)app;
+- (id)initWithAppInLandscapeMode:(ofxiOSApp *)app;
 
 - (void)handleARViewRotation:(UIInterfaceOrientation)interfaceOrientation;
 
